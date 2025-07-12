@@ -192,7 +192,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 - Offers various volume types for different IOPS (Input/Output Operations Per Second) requirements.
 - Volume data is automatically replicated to several physical drives, increasing durability.
 - EBS snapshots provide data protection by creating backups (snapshots) in S3.
-- Has the ability to optionally enlarge or change volumes. (auto scale)
+- It doesn't auto-scale
 - **Amazon EBS pricing includes three factors: volumes, snapshots, data transfer**
 - **It is not a regional service**
 
