@@ -194,7 +194,7 @@ An *instance store* provides temporary block-level storage for your instance. 
 - EBS snapshots provide data protection by creating backups (snapshots) in S3.
 - Has the ability to optionally enlarge or change volumes. (auto scale)
 - **Amazon EBS pricing includes three factors: volumes, snapshots, data transfer**
-- **It is not a regional service**
+- **It is a regional service, not a global service**
 
 ## Amazon Elastic File System (EFS)
 
